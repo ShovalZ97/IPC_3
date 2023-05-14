@@ -33,7 +33,9 @@ Unix Domain Socket (UDS) :stream and datagram (2 variants))
 stnc -c IP PORT -p <type> <param>
   
 -p will indicate to perform the test
+
 <type> will be the communication types: so it can be ipv4,ipv6,mmap,pipe,uds
+
 <param> will be a parameter for the type. It can be udp/tcp or dgram/stream or file name:
   
 #### The usage for the server side is as follows:
@@ -43,11 +45,17 @@ Server Side: stnc -s PORT -p -q
 The -p flag indicates a performance test, and the -q flag enables quiet mode, where only the testing results are printed. This mode is essential for automatic testing.
 
 The results will be in milliseconds (ms) and printed like this :
+
 name_type,time
+
 Examples:
+
 ipv4_udp,112233
+
 uds_stream,112233
+
 mmap,223355
+
 pipe,554411
 
 ### We have 8 combinations:
