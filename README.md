@@ -138,7 +138,7 @@ Client:
 ## In Terminal
 
 
- ![תמונה 1](https://github.com/ShovalZ97/IPC_3/assets/118892976/23710c4e-5b12-4508-9813-262c44d228a9)
+![image](https://github.com/ShovalZ97/IPC_3/assets/118892976/b42c037c-75c0-4b21-af14-21c50aa3c9bc)
   
  *** To run the program you need to add the ssl library and run this commands in terminal :
 
