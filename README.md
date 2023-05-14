@@ -22,6 +22,13 @@ In order to make the chat simultansily and synchronized in Server side as Client
 The program creates a connection between the server and the client using sockets. After establishing a connection, the program uses a call to the poll() function to monitor two sockets: one for input from the client and one for input from the server. When the user types a message and presses enter, the software sends the message to the server. When the server receives a message, it sends it back to the client. Both the client and the server display the
 Messages they receive from the other side.
 
+![image](https://github.com/ShovalZ97/IPC_3/assets/118892976/ef7adcac-5487-4da1-ac6e-6a215e27c892)
+
+
+![image](https://github.com/ShovalZ97/IPC_3/assets/118892976/a8ab353c-c620-428a-8397-60c4417c09b7)
+
+
+
 ## Part B: Performance Test
 Network performance test tool.
 We created a block of data, 100MB in size, we generated a check sum (hash) for the above data
