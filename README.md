@@ -127,6 +127,10 @@ _____pipe filename_____
 
 Client:
 ./stnc -c 127.0.0.1 8080 -p uds pipe filename
+
+## In Terminal
+
+
  ![תמונה 1](https://github.com/ShovalZ97/IPC_3/assets/118892976/23710c4e-5b12-4508-9813-262c44d228a9)
   
  *** To run the program you need to add the ssl library and run this commands in terminal :
