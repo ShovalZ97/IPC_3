@@ -28,14 +28,15 @@ tcp/udp ipv4/ipv6 (4 variants)
 mmap a file. Named pipe (2 variants)
 Unix Domain Socket (UDS) :stream and datagram (2 variants))
 
-### The usage for the client side is as follows:
+#### The usage for the client side is as follows:
 
 stnc -c IP PORT -p <type> <param>
+  
 -p will indicate to perform the test
 <type> will be the communication types: so it can be ipv4,ipv6,mmap,pipe,uds
 <param> will be a parameter for the type. It can be udp/tcp or dgram/stream or file name:
   
-The usage for the server side is as follows:
+#### The usage for the server side is as follows:
 
 Server Side: stnc -s PORT -p -q
 
@@ -106,4 +107,3 @@ _____pipe filename_____
 Client:
 ./stnc -c 127.0.0.1 8080 -p uds pipe filename
 
-Stnc file is the shell of the tool , he manage to decide which flag i am using , Am i gonna run Server/Client and if it will be in Performance mode or/and Quite mode. In order to run client and server at the same time he create 2 process one for client and one for server with the needed info to run as needed.
