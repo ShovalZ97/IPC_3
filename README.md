@@ -127,8 +127,9 @@ _____pipe filename_____
 
 Client:
 ./stnc -c 127.0.0.1 8080 -p uds pipe filename
- 
-  
+ ![תמונה 1](https://github.com/ShovalZ97/IPC_3/assets/118892976/23710c4e-5b12-4508-9813-262c44d228a9)
+
+ <img src="https://user-images.githubusercontent.com/118892976/211491934-637d03b5-c3cd-4207-8d95-bf84b977128e.png" alt="drawing" width="500"/>
   
  *** To run the program you need to add the ssl library and run this commands in terminal :
 
