@@ -127,4 +127,15 @@ _____pipe filename_____
 
 Client:
 ./stnc -c 127.0.0.1 8080 -p uds pipe filename
+ 
+  
+  
+ *** To run the program you need to add the ssl library and run this commands in terminal :
 
+sudo apt-get update
+
+sudo apt-get install libssl-dev
+
+openssl version
+ 
+## HAVE FUN !!! 
