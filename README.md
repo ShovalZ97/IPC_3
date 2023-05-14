@@ -55,6 +55,7 @@ ____ipv4 tcp____
   
 Server:
  ./stnc -s 8080 -p 
+
  Client:
 ./stnc -c 127.0.0.1 8080 -p ipv4 tcp
   
@@ -62,6 +63,7 @@ ____ipv4 udp____
 
 Server:
 ./stnc -s 8080 -p 
+
 Client:
 ./stnc -c 127.0.0.1 8080 -p ipv4 udp
   
@@ -69,6 +71,7 @@ ____ipv6 tcp____
   
 Server:
 ./stnc -s 8080 -p 
+
 Client:
 ./stnc -c 127.0.0.1 8080 -p ipv6 tcp
   
@@ -76,6 +79,7 @@ ____ipv6 udp____
 
 Server:
 ./stnc -s 8080 -p 
+
 Client:
 ./stnc -c 127.0.0.1 8080 -p ipv6 udp
  
@@ -83,6 +87,7 @@ _____uds dgram_____
  
 Server:
 ./stnc -s 8080 -p 
+
 Client:
 ./stnc -c 127.0.0.1 8080 -p uds udp dgram
   
@@ -90,6 +95,7 @@ ____uds stream_____
  
 Server:
 ./stnc -s 8080 -p 
+
 Client:
 ./stnc -c 127.0.0.1 8080 -p uds udp stream
   
@@ -97,6 +103,7 @@ ____mmap filename____
   
  Server:
 ./stnc -s 8080 -p 
+
 Client:
 ./stnc -c 127.0.0.1 8080 -p uds mmap filename
   
@@ -104,6 +111,7 @@ _____pipe filename_____
  
  Server:
 ./stnc -s 8080 -p 
+
 Client:
 ./stnc -c 127.0.0.1 8080 -p uds pipe filename
 
